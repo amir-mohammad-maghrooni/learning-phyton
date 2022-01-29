@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\maghrooni product\\maghrooni product\\maghrooni product.csproj": {}
+    "C:\\Users\\hp\\myproject\\maghrooni product\\maghrooni product\\maghrooni product.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\maghrooni product\\maghrooni product\\maghrooni product.csproj": {
+    "C:\\Users\\hp\\myproject\\maghrooni product\\maghrooni product\\maghrooni product.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\maghrooni product\\maghrooni product\\maghrooni product.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\myproject\\maghrooni product\\maghrooni product\\maghrooni product.csproj",
         "projectName": "maghrooni product",
-        "projectPath": "C:\\Users\\hp\\Desktop\\maghrooni product\\maghrooni product\\maghrooni product.csproj",
+        "projectPath": "C:\\Users\\hp\\myproject\\maghrooni product\\maghrooni product\\maghrooni product.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\maghrooni product\\maghrooni product\\obj\\",
+        "outputPath": "C:\\Users\\hp\\myproject\\maghrooni product\\maghrooni product\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
