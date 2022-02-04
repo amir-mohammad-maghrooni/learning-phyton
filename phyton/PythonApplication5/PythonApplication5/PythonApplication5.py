@@ -134,3 +134,89 @@ newlist3 =["ninth","tenth"]
 newlist2.extend(newlist3);
 print(newlist2,"\n. . . . . how did the . . . . . did the last two numbers just . . . . suddenly appear?!?");
 print("-----------------------------------------------------------");
+newlist4 = ["one","two","for","three","four"];
+print (newlist4,"\noops there is a problem in this list");
+newlist4.remove("for");
+print(newlist4,"\nfixed!");
+filler1=("five","six","sven")
+newlist4.extend(filler1);
+print(newlist4,"\n- damn another typo in the list");
+newlist4.pop(6)#stupid mistake again . . . writed it as 8 while with the removes it only goes to 6 
+#if pop() is not specified it will remove the last item
+print(newlist4,"fixed again!");
+#there is also the del() command that is the same as pop() but if not specified it will remove the whole list
+del newlist4[5];
+print(newlist4);
+newlist4.clear()#the clear() command clears the list contents and leave the list empty
+print(newlist4,"\n the list above is empty!");
+print("-----------------------------------------------------------");
+#LOOPS
+newLiLoop=["one","two","tree","four","five","six","seven","eight"];
+for x in newLiLoop:
+    print(x);#will print the items in list one by one
+print("first example of list looping");
+for i in range(len(newLiLoop)):
+    print(newLiLoop[1]);# will loop through the list items by referring to their index number
+print("second example of list looping");
+z=0
+while z < len(newLiLoop):
+    print(newLiLoop[z]);
+    z=z+1;
+print("third example of list looping");
+#the shortest syntax for list looping
+[print(x) for x in newLiLoop];
+print("-----------------------------------------------------------");
+"""
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
+the shortend syntex of the lines above is :
+"""
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist5= [x for x in fruits if "a" in x];
+print(newlist5,"\n a filterd list of fruits with 'a's in it");
+#newlist = [expression for item in iterable if condition == True] "the syntex"
+newlist5= [x for x in fruits if x != "apple"];#the condition if is optional
+print(newlist5,"\n fruits without apple");
+print("---------------------------------------------------------");
+newlist6 =["orange", "mango", "kiwi", "pineapple", "banana"]
+print(newlist6);
+newlist6.sort()#the sort() will sort the list
+print(newlist6,"\n two lists unsorted and sorted");
+newlist6_1 =[100, 50, 65, 82, 23];
+print(newlist6_1)
+newlist6_1.sort();
+print(newlist6_1);
+newlist6.sort(reverse = True)
+print(newlist6,"\n the same fruit list reversed sorted!");
+#you can also fully reverse the list regardless of the sorting
+newlist6 =["orange", "mango", "kiwi", "pineapple", "banana"]
+newlist6.reverse();
+print(newlist6,"\nreversed!")
+print("---------------------------------------")
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+#the easiest way to join two lists is + 
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+  list1.append(x)
+
+print(list1)
+#or adding them one by one using append()
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1)
+#or the extend() command
+print("-----------------------------")
