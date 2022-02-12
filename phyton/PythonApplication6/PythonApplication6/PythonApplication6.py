@@ -48,4 +48,35 @@ fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 print(green)
 print(yellow)
 print(red);
-print("------");
+print("---------------------");
+Lloop =("apple","banana","orange","kiwi","grape")
+for x in Lloop:
+    print(x);#will loop and print every individual item`s
+print("-------------------------------------")
+for i in range(len(Lloop)):
+    print(Lloop[i]);#will do the same thing as the above loop but through the index number
+print("-------------------------------------")
+Lloop2=("one","two","tree","four","five")
+i = 0
+while i < len(Lloop2):
+    print(Lloop2[i])
+    i=i+1;
+print("-------------------------------------")
+#Joining two tuples
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2 #more than two tuples can be added 
+print(tuple3)
+print("----------------------------------")
+#you can also multiply tuples
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 5
+
+print(mytuple)
+print("------------------------------------------")
+"""
+tuples has two build in methodes in phyton
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
+"""
