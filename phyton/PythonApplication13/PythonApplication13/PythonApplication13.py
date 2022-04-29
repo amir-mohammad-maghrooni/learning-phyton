@@ -119,3 +119,9 @@ print(json.dumps(x))
 
 print("---------------------------------------")
 
+#the indent parameter defines the number of indents
+#with the separators you can define (",",":") which means using a comma and a space to separate each object and a colon and a space to separate keys frome value
+
+print(json.dumps(x, indent=4, separators=(". "," = ")))
+print("------")
+print(json.dumps(x, indent=4, sort_keys=True))
